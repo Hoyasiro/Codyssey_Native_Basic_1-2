@@ -17,7 +17,7 @@
 ||속도|5|
 
 결론: GPT로 결과물을 도출하고 Claude로 검증/비교 작업을 진행하겠다.
-<details><summary> 미션 가이던스 by GPT 펼치기 </summary>
+<details><summary> 미션 실행 가이드 펼치기 </summary>
 
   ```
         # 미션 통합 가이드: AI 브랜드 광고 제작 프로젝트
