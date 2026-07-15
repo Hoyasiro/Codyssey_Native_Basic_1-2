@@ -234,9 +234,8 @@
 
 핵심 메세지 1문장: "마운드에 오르는 건 내가 아니라, 우리가 쌓은 우정과 열정이다."
 
-## Step 4: 씬(Scene)별 스토리보드 작성하기
-(1) Story board
-## 2. 씬별 스토리보드
+## Step 4: 씬(Scene)별 스토리보드 작성하기 & AI 도구 선정하기
+(1) Story board  
 
 | 항목 | 씬1 | 씬2 | 씬3 | 씬4 |
 |---|---|---|---|---|
@@ -250,6 +249,14 @@
 | 실제 프롬프트 원문 | [이미지] wide establishing shot of artificial turf baseball field viewed from behind the pitcher, empty blank banner hanging behind home plate, warm late-afternoon sunlight, quiet tension, cinematic sports documentary style, no text<br>[영상변환] slow subtle push-in camera movement, gentle breeze, cinematic sports intro mood | youth baseball pitcher in orange uniform winding up and throwing forcefully, dynamic motion, slight motion blur, dramatic low angle, stadium lights, high-energy sports commercial style, no text overlay | youth baseball pitcher raising both arms in triumph after a strikeout, teammates in orange uniforms running toward the mound throwing caps into the air, joyful team celebration, warm sunset stadium lighting, sports commercial cinematography, no text overlay | close-up of clear blue sky slowly transitioning to a clean black background, soft glow, minimal elegant reveal animation, orange and white color palette, clean sports branding style, no logo or text |
 | 생성 결과 요약 | (생성 후 작성) 예: 원하는 구도와 분위기는 표현되었으나 현수막 텍스트는 비워둔 채 생성됨 → 편집 단계에서 자막 그래픽으로 추가 예정 | (생성 후 작성) 예: 와인드업에서 투구까지 동작 흐름이 자연스럽게 이어졌는지 확인 후 요약 작성 | (생성 후 작성) 예: 인물이 많아 동작이 부자연스러우면 인원수를 줄이거나 2단계(투수 클로즈업→동료들 질주)로 씬을 쪼개는 것도 고려 | (생성 후 작성) 예: 하늘→검은 배경 전환이 부드럽게 표현되었는지 확인 후 실제 로고/슬로건 합성 결과 요약 |
 | 생성 파일명/링크 | scene1_intro.mp4 | scene2_pitch.mp4 | scene3_celebration.mp4 | scene4_logo_reveal.mp4 |
+
+(2) 오디오 계획
+
+|사용 AI 도구|Suno (BGM 생성)|
+|도구 선정 이유|에너제틱하고 처운 느낌의 배경음악을 짧은 길이로 맞춤 생성 가능|
+|실제 프롬프트 원문|upbeat energetic sports anthem, youthful, drums and brass, 10 seconds, trumphat feeling|
+|생성 결과 요약||
+|생성 파일명/링크|bgm_main.mp3|
 
 
 
