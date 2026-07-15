@@ -234,4 +234,23 @@
 
 핵심 메세지 1문장: "마운드에 오르는 건 내가 아니라, 우리가 쌓은 우정과 열정이다."
 
+## Step 4: 씬(Scene)별 스토리보드 작성하기
+(1) Story board
+## 2. 씬별 스토리보드
+
+| 항목 | 씬1 | 씬2 | 씬3 | 씬4 |
+|---|---|---|---|---|
+| 씬 번호 | 1 | 2 | 3 | 4 |
+| 씬 길이(초) | 1.5 | 3 | 4 | 1.5 |
+| 전달 메시지 | 대회에 참가한 대전서구유소년야구단 (도입/설정) | 팀의 성적이 우수함 (투구 장면) | 팀워크가 뛰어남 (헛스윙 삼진 & 세리모니) | 팀의 실력과 자부심, 브랜드 각인 (로고 리빌) |
+| 화면 구성 | 인조잔디 야구장을 투수 뒤편에서 원거리 수평 앵글로 바라본 와이드샷. 타석-포수-심판 뒤에 걸린 현수막에 "2026년 순창고추장배 유소년야구대회" 문구가 보인다. | 투수가 와인드업 자세를 취한 뒤 공을 힘차게 던지는 순간의 클로즈업. | 헛스윙 삼진으로 경기가 끝나는 순간, 투수가 두 팔을 번쩍 들어올리며 포효한다. 수비 위치에 있던 동료들이 모자를 하늘 높이 던지며 마운드로 달려온다. 팀 컬러인 주황이 유니폼 곳곳에 강조된다. | 푸른 하늘을 클로즈업하다가 화면이 검은 배경으로 전환되며 대전서구이글스 로고가 서서히 나타나고, 이어서 슬로건이 페이드인 된다. |
+| 내레이션/카피 문구 | 내레이션 없음 / 효과음: 매미 울음소리 / 자막: "2026 순창고추장배 유소년야구대회 결승 - 마지막 아웃카운트" | 내레이션(캐스터 톤): "투수, 던졌습니다!" / 효과음: 투구 순간에 맞춘 타격음 | 내레이션(캐스터 톤): "헛스윙 삼진 아웃! 대전서구이글스 우승!" / 효과음: 함성 소리 | 자막: "마운드에 오르는 건 내가 아니라, 우리가 쌓은 우정과 열정이다." |
+| 사용 AI 도구 | 영상: Kling (텍스트→영상) + 이미지: Midjourney (배경 원본) | 영상: Runway (이미지→영상 변환) | 영상: Kling 또는 Runway (텍스트/이미지→영상 변환) | 이미지: DALL·E (배경/전환 연출) + 실제 팀 로고 합성 |
+| 도구 선정 이유 | 정적 와이드샷에 미세한 카메라 이동만 필요해 이미지 생성 후 영상 변환이 효율적. 단, AI는 한글 텍스트를 정확히 렌더링하지 못하는 경우가 많아 현수막 문구는 프롬프트에 넣지 않고 편집 단계(자막/그래픽 오버레이)에서 추가하는 것을 권장. | 인물의 정교한 동작(와인드업→투구)을 자연스럽게 표현하는 데 강함. | 여러 인물이 동시에 움직이는 복합 동작(팔 들어올리기+동료들 질주+모자 던지기)이 필요해, 동작 표현력이 좋은 영상 생성 도구가 필요함. 다인물 동시 동작은 AI가 어색하게 처리하기 쉬워 재생성 가능성이 높은 씬 → Step 6 프롬프트 수정 기록 후보로 적합. | 로고·텍스트 합성 결과물의 품질이 안정적임. 단, 팀 로고 자체는 AI가 창작하는 것이 아니라 실제 로고 이미지를 사용해야 하므로, 배경/전환 애니메이션만 AI로 생성 후 로고는 편집 단계에서 정확히 합성. |
+| 실제 프롬프트 원문 | [이미지] wide establishing shot of artificial turf baseball field viewed from behind the pitcher, empty blank banner hanging behind home plate, warm late-afternoon sunlight, quiet tension, cinematic sports documentary style, no text<br>[영상변환] slow subtle push-in camera movement, gentle breeze, cinematic sports intro mood | youth baseball pitcher in orange uniform winding up and throwing forcefully, dynamic motion, slight motion blur, dramatic low angle, stadium lights, high-energy sports commercial style, no text overlay | youth baseball pitcher raising both arms in triumph after a strikeout, teammates in orange uniforms running toward the mound throwing caps into the air, joyful team celebration, warm sunset stadium lighting, sports commercial cinematography, no text overlay | close-up of clear blue sky slowly transitioning to a clean black background, soft glow, minimal elegant reveal animation, orange and white color palette, clean sports branding style, no logo or text |
+| 생성 결과 요약 | (생성 후 작성) 예: 원하는 구도와 분위기는 표현되었으나 현수막 텍스트는 비워둔 채 생성됨 → 편집 단계에서 자막 그래픽으로 추가 예정 | (생성 후 작성) 예: 와인드업에서 투구까지 동작 흐름이 자연스럽게 이어졌는지 확인 후 요약 작성 | (생성 후 작성) 예: 인물이 많아 동작이 부자연스러우면 인원수를 줄이거나 2단계(투수 클로즈업→동료들 질주)로 씬을 쪼개는 것도 고려 | (생성 후 작성) 예: 하늘→검은 배경 전환이 부드럽게 표현되었는지 확인 후 실제 로고/슬로건 합성 결과 요약 |
+| 생성 파일명/링크 | scene1_intro.mp4 | scene2_pitch.mp4 | scene3_celebration.mp4 | scene4_logo_reveal.mp4 |
+
+
+
 [결과물2: 영상파일 .mp4]
