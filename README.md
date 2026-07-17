@@ -254,6 +254,9 @@
 [00:00-00:50]
 투수 뒤에서 바라본 인조 잔디 야구장(리틀리그 야구장, 마운드는 흙)의 넓은 전경 샷, 홈 플레이트 뒤에 걸려 있는 텅 빈 현수막(배경색은 흰색, 텍스트는 "2026년 순창고추장배 유소년야구대회", 가운데 정렬, 텍스트 컬러 2026년(파랑색), 순창고추장배(빨강색), 유소년야구대회(검정색), 현수막 사이즈(가로로 긴, 1:9), 따뜻한 늦은 오후 햇살, 멀직이 들려오는 매미 울음소리, 고요한 긴장감, 영화 같은 스포츠 다큐멘터리 스타일, Aspect ratio 16:9.
 
+씬 3
+Low-angle telephoto lens sports broadcast video of a focused young Korean baseball batter (around 10 years old) at home plate, executing a powerful batting swing. He wears a black uniform jersey with distinct orange stripes and piping, paired with white pants featuring orange side lines. His matte black protective batting helmet with a jaw guard prominently features a simple version of the Rakuten Eagles team logo on the front. He swings a composite baseball bat, making perfect contact with an incoming baseball, sending it flying with natural motion blur indicating high velocity. Directly behind him, a young crouching catcher in full white and grey protective gear and a home-plate umpire are focused on the play, forming a clear triangular alignment on the dirt and grass field. The background features a quiet, empty stadium with green outfield fences and concrete stands, bathed in bright afternoon sunlight, providing a clear but beautifully blurred shallow depth of field. Realistic skin textures, faint grain typical of a sports broadcast, dynamic and raw cinematic movement. Single shot, seamless motion, no cuts.
+
 (2) 오디오 계획
 
 | 항목 | 상세 내용 |
