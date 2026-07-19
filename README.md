@@ -250,7 +250,7 @@
 | 생성 결과 요약 | | | | |
 | 생성 파일명/링크 | | | | |
 
-(1)
+(1) 씬2 Sora-2 프롬프트
 ```
 A handsome 10-year-old Korean boy with glasses, youth baseball pitcher, 
 wearing a black and orange baseball uniform in the style of a Baltimore-inspired 
