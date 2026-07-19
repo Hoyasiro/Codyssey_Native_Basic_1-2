@@ -243,10 +243,10 @@
 | 씬 길이(초) | 2 | 3 | 3 | 2 |
 | 전달 메시지 | 유소년 야구 시작하려면 공부는 포기해야 하는가? (질문을 던짐) | 정답은 그렇지 않다. 운동과 학업 병행을 지향하는 리그가 존재합니다. (투구 장면) | 그 리그에서 공부하며 야구선수로서 꿈을 키워가는 대전서구이글스 (타격 장면) | 팀 로고 소개, 슬로건 노출 |
 | 화면 구성 | 검은색 배경이 등장하며 "야구선수로 키우려면 공부는 포기해야 한다며?" 말머리에 텍스트가 fade in/out으로 부드럽게 표현된다. | 투수가 와인드업 자세를 취한 뒤 공을 힘차게 던지는 모습. | 타자가 공을 힘차게 치는 모습. | 다시 검은 배경에 '대전서구이글스' 로고와 슬로건("공부하는 야구, 생활 속의 야구, 즐기는 야구") 문자가 페이드인하며 영상이 끝. |
-| 내레이션/카피 문구 | 내레이션: (남성, 속삭이는 목소리) "야구선수로 키우려면 공부는 포기해야 한다며?" / 효과음: 없음 / 자막: 없음 | 내레이션 (차분한 여성 아나운서 목소리): "그렇지 않습니다. 운동과 학업 병행을 지향하는 대한유소년야구연맹이 있으니까요." / 효과음: 야구선수가 투구하는 소리 / 자막: 없음 | 내레이션(차분한 여성 아나운서 목소리): "대전서구이글스! 여기서 야구선수의 꿈과 학업, 두 마리의 토끼를 잡으세요!" / 효과음: 타자가 타격하는 소리 / 자막: 없음 | 자막: "공부하는 야구, 생활 속의 야구, 즐기는 야구" |
+| 내레이션/카피 문구 | 내레이션: (남성, 속삭이는 목소리) "야구선수로 키우려면 공부는 포기해야 한다며?" / 효과음: 없음 / 자막: 없음 | 내레이션 (차분한 여성 아나운서 목소리): "아니오! 운동과 학업 병행을 지향하는 대한유소년야구연맹이 있으니까요." / 효과음: 야구선수가 투구하는 소리 / 자막: 없음 | 내레이션(차분한 여성 아나운서 목소리): "대전서구이글스! 여기서 야구선수의 꿈과 학업, 두 마리의 토끼를 잡으세요!" / 효과음: 타자가 타격하는 소리 / 자막: 없음 | 자막: "공부하는 야구, 생활 속의 야구, 즐기는 야구" |
 | 사용 AI 도구 | Capcut (배경 이미지 + 텍스트 페이드인/아웃) + ElevenLabs (내레이션 TTS) | Sora-2 (Text to image AI image genetaion) + ElevenLabs (내레이션 TTS) | Sora-2 (Text to image AI image genetaion) + ElevenLabs (내레이션 TTS) | Capcut (배경 이미지 + 텍스트&로고 페이드인) |
 | 도구 선정 이유 | 완전히 어두운 배경과 한국어 표현의 온건성을 위해 배경과 텍스트의 fade in/out 효과는 편집 툴만 사용(AI 영상 사용 시, 과도한 토큰 소모와 결과물의 불완전성으로 영상 제작 효율이 매뉴얼 생성 대비 매우 떨어짐). 속삭이는 남성 목소리는 감정 표현이 섬세한 ElevenLabs TTS (Eleven v3)로 구현 | Kling, Runway 사용 시, 유료 결제 압박과 유효한 결과물 생성이 안되는 어려움을 겪어 네이토의 미디어 생성 모델(Sora-2, 가장 저렴)을 활용한 T2V 기법 (네이토(범용 AI모델의 API 활용 플랫폼) 사용 시 reference 첨부가 불가한 현상으로 인해 I2V 기법을 적용할 수 없었음)으로 4개의 비디오를 생성했고, 그 중 1개가 유효하게 생성되었다. | 씬2와 동일한 이유로 네이토 미디어 생성 모델(Sor-2)을 활용했고, 1개의 비디오가 유효하게 생성되었다. | 씬1과 동일한 이유(화면/음성 구성이 일치함.), 모든 씬에서 내레이션은 Elevenlabs TTS가 가장 저렴하고 효율적이며 고품질의 음성을 생성하여 선정하였다. |
-| 실제 프롬프트 원문 | (ElevenLabs TTS - Eleven v3 사용, 중년 남성 목소리 옵션 선택) [Whisper] 야구선수로 키우려면 공부는 포기해야 한다며? | (Sora-2, 네이토) (1)참조 <br><br> [ElevenLabs TTS - 차분한 여성 아나운서] "정답은 그렇지 않습니다. 대한민국엔 운동과 학업 병행을 지향하는 대한유소년야구연맹이 있으니까요." | [Midjourney] Dynamic photo of a young baseball batter at the moment of impact, bat connecting with the ball, orange team jersey, powerful swing, motion blur, dust and light particles, cinematic sports photography, photorealistic --ar 9:16 --style raw<br><br>[Runway 영상 변환] Batter swings and connects with the ball, ball flies off the bat, camera slight follow motion, energetic, 3 seconds<br><br>[ElevenLabs TTS - 차분한 여성 아나운서] "대전서구이글스! 이곳에서 야구선수의 꿈과 학업 성취도 향상 두 마리의 토끼를 잡으세요!" | [Midjourney] Pure solid black background, minimal, cinematic, no text, no objects, subtle vignette --ar 9:16 --style raw<br><br>(편집 프로그램에서 대전서구이글스 로고 페이드인 + 슬로건 "공부하는 야구, 생활 속의 야구, 즐기는 야구" 자막 페이드인 연출) |
+| 실제 프롬프트 원문 | (ElevenLabs TTS - Eleven v3 사용, 중년 남성 목소리 옵션 선택) [Whisper] 야구선수로 키우려면 공부는 포기해야 한다며? | (Sora-2, 네이토) (1)참조 <br><br> [ElevenLabs TTS - 차분한 여성 아나운서] 아니오! 운동과 학업 병행을 지향하는 대한유소년야구연맹이 있으니까요. | (Sora-2, 네이토) (2)참조 <br><br>[ElevenLabs TTS - 차분한 여성 아나운서] 대전서구이글스! 여기서 야구선수의 꿈과 학업, 두 마리의 토끼를 잡으세요! | Not Applicable |
 | 생성 결과 요약 | | | | |
 | 생성 파일명/링크 | | | | |
 
@@ -291,6 +291,11 @@ inconsistent uniform color.
 
 Technical: 24fps, 16:9 aspect ratio, slight motion blur, natural sunlight, 
 realistic cinematic sports broadcast look.
+```
+
+(2) 씬3 Sora-2 프롬프트
+```
+Low-angle telephoto lens sports broadcast video of a focused young Korean baseball batter (around 10 years old) at home plate, executing a powerful batting swing. He wears a black uniform jersey with distinct orange stripes and piping, paired with white pants featuring orange side lines. His matte black protective batting helmet with a jaw guard prominently features a simple version of the Rakuten Eagles team logo on the front. He swings a composite baseball bat, making perfect contact with an incoming baseball, sending it flying with natural motion blur indicating high velocity. Directly behind him, a young crouching catcher in full white and grey protective gear and a home-plate umpire are focused on the play, forming a clear triangular alignment on the dirt and grass field. The background features a quiet, empty stadium with green outfield fences and concrete stands, bathed in bright afternoon sunlight, providing a clear but beautifully blurred shallow depth of field. Realistic skin textures, faint grain typical of a sports broadcast, dynamic and raw cinematic movement. Single shot, seamless motion, no cuts.
 ```
 
 Kling과 Runway를 활용해 이미지 기반 영상 생성(I2V)을 시도해 보았다. 그러나 Kling의 무료 플랜은 월간 크레딧 제한으로 인해 한 달에 고작 한 편의 영상만 제작할 수 있었고, Runway 역시 하루에 1~2편 남짓 생성하는 데 그치는 데다 결과물의 품질마저 떨어져 만족스러운 유효 결과물을 얻기 어려웠다. 이처럼 영상 생성 AI를 선정하는 과정에서 과도한 비용 부담과 저품질 결과물이라는 높은 장벽을 경험하다 보니, 음성 생성 AI를 고를 때는 선뜻 다른 모델들을 다양하게 테스트해 볼 엄두조차 나지 않았다. 결국 이러한 심리적 위축 속에서 단 한 번의 시도로 비용과 품질 모두 높은 만족도를 준 ElevenLabs(TTS)를 최종 모델로 선정하게 되었다.
