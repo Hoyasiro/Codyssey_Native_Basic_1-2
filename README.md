@@ -314,7 +314,7 @@ Low-angle telephoto lens sports broadcast video of a focused young Korean baseba
 |사용 AI 도구|Suno (BGM 생성)|
 |도구 선정 이유|에너제틱하고 처운 느낌의 배경음악을 짧은 길이로 맞춤 생성 가능|
 |실제 프롬프트 원문|upbeat energetic sports anthem, youthful, drums and brass, 10 seconds, trumphat feeling|
-|생성 결과 요약||
+|생성 결과 요약|Brass 사운드가 경쾌한 BGM이 생성되었다. 도입부와 최종 멘트에서 잘 어울리는 비트와 멜로디가 생성된 건 굉장히 운이 좋았던 것 같다.|
 |생성 파일명/링크|bgm_main.mp3|
 
 
